@@ -1,0 +1,6 @@
+displayName: Analytics
+type: middleware
+import: github.com/lastvolt/traefik-analytics
+summary: Collect request analytics and store in PostgreSQL
+testData:
+  DatabaseDSN: postgres://username:password@localhost:5432/analytics?sslmode=disable
